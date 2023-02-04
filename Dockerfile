@@ -15,7 +15,7 @@ RUN apt update && apt install git -y && git clone https://github.com/qtvhao/fair
 
 # Change the working directory to the Fairseq directory
 WORKDIR /app/fairseq
-
+RUN apt update && apt install build-essential -y
 # Install Fairseq using pip
 RUN pip install --no-cache-dir .
 
