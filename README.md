@@ -1,3 +1,7 @@
+#
+```
+docker build -t fairseq -f Dockerfile https://github.com/qtvhao/fairseq.git#master
+```
 <p align="center">
   <img src="docs/fairseq_logo.png" width="150">
   <br />
