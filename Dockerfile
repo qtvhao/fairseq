@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Clone the Fairseq repository from GitHub
-RUN apt update && apt install git -y && git clone https://github.com/pytorch/fairseq.git
+RUN apt update && apt install git -y && git clone https://github.com/qtvhao/fairseq.git
 
 # Change the working directory to the Fairseq directory
 WORKDIR /app/fairseq
