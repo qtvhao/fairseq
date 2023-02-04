@@ -1,0 +1,8 @@
+numpy
+torch
+sentencepiece
+tqdm
+regex
+boto3
+sacrebleu
+fairseq
